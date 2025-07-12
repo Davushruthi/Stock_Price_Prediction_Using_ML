@@ -1,12 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[6]:
-
-
-# Install yfinance if not already installed
-# !pip install yfinance
-
 # Step 1: Import libraries
 import yfinance as yf
 import pandas as pd
@@ -53,10 +47,5 @@ plt.legend()
 plt.grid(True)
 plt.tight_layout()
 plt.show()
-
-
-# In[ ]:
-
-
 
 
